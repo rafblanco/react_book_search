@@ -1,0 +1,12 @@
+nav.navbar.navbar-default {
+  margin-bottom: 0;
+}
+.nav-link{
+  display: inline-block;
+}
+.navbar-nav{
+  flex-direction: row;
+}
+.nav-item{
+  margin: 2px;
+}

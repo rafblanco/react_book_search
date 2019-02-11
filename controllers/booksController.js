@@ -10,7 +10,7 @@ module.exports = {
 
   // Will be used to save a new book to the database.
   create: function(req, res) {
-    db.Book.create(res.body)
+    db.Book.create(req.body)
       .then(dbModel => res.json(dbModel))
       .catch(err => res.status(422).json(err));
   },
